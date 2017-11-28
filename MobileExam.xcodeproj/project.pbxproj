@@ -7,46 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C1CEE4D1FCDF7A6000DE63E /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1CEE4C1FCDF7A6000DE63E /* DBManager.swift */; };
+		3C449C491FCDFDB400443A58 /* RealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C449C481FCDFDB400443A58 /* RealmModel.swift */; };
 		3CFA59801FCD7F4C00B6A47E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA597F1FCD7F4C00B6A47E /* AppDelegate.swift */; };
-		3CFA59821FCD7F4C00B6A47E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA59811FCD7F4C00B6A47E /* ViewController.swift */; };
 		3CFA59851FCD7F4C00B6A47E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFA59831FCD7F4C00B6A47E /* Main.storyboard */; };
 		3CFA59871FCD7F4C00B6A47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CFA59861FCD7F4C00B6A47E /* Assets.xcassets */; };
 		3CFA598A1FCD7F4C00B6A47E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFA59881FCD7F4C00B6A47E /* LaunchScreen.storyboard */; };
-		3CFA59951FCD7F4D00B6A47E /* MobileExamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA59941FCD7F4D00B6A47E /* MobileExamTests.swift */; };
-		3CFA59A01FCD7F4D00B6A47E /* MobileExamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA599F1FCD7F4D00B6A47E /* MobileExamUITests.swift */; };
+		3CFA59AE1FCD8C9300B6A47E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA59AD1FCD8C9300B6A47E /* Extensions.swift */; };
+		3CFA59B11FCD8D9F00B6A47E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA59B01FCD8D9F00B6A47E /* SignInViewController.swift */; };
+		3CFA59B31FCD8DA800B6A47E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA59B21FCD8DA800B6A47E /* SignUpViewController.swift */; };
+		3CFA59B61FCD932100B6A47E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA59B51FCD932100B6A47E /* ProfileViewController.swift */; };
+		3CFA59BD1FCD956300B6A47E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA59BC1FCD956300B6A47E /* APIService.swift */; };
+		3CFA59C01FCD97CB00B6A47E /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA59BF1FCD97CB00B6A47E /* AuthResponse.swift */; };
+		3CFA59C21FCD9EEA00B6A47E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA59C11FCD9EEA00B6A47E /* Constants.swift */; };
+		3CFA59C41FCDDBDD00B6A47E /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA59C31FCDDBDD00B6A47E /* AuthManager.swift */; };
+		3CFA59C61FCDEE7000B6A47E /* ProfileViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFA59C51FCDEE7000B6A47E /* ProfileViewController.storyboard */; };
+		D7ADFB71ECB88048776124FB /* Pods_MobileExam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4394BC60ADAC20D1DF5C63 /* Pods_MobileExam.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		3CFA59911FCD7F4D00B6A47E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3CFA59741FCD7F4C00B6A47E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3CFA597B1FCD7F4C00B6A47E;
-			remoteInfo = MobileExam;
-		};
-		3CFA599C1FCD7F4D00B6A47E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3CFA59741FCD7F4C00B6A47E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3CFA597B1FCD7F4C00B6A47E;
-			remoteInfo = MobileExam;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		25023B9077BE65C8B8C0F828 /* Pods-MobileExam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileExam.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileExam/Pods-MobileExam.release.xcconfig"; sourceTree = "<group>"; };
+		34740161E56D3812707D7C04 /* Pods-MobileExam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileExam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileExam/Pods-MobileExam.debug.xcconfig"; sourceTree = "<group>"; };
+		3C1CEE4C1FCDF7A6000DE63E /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		3C449C481FCDFDB400443A58 /* RealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel.swift; sourceTree = "<group>"; };
 		3CFA597C1FCD7F4C00B6A47E /* MobileExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFA597F1FCD7F4C00B6A47E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3CFA59811FCD7F4C00B6A47E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3CFA59841FCD7F4C00B6A47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CFA59861FCD7F4C00B6A47E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CFA59891FCD7F4C00B6A47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CFA598B1FCD7F4C00B6A47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CFA59901FCD7F4D00B6A47E /* MobileExamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileExamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CFA59941FCD7F4D00B6A47E /* MobileExamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileExamTests.swift; sourceTree = "<group>"; };
-		3CFA59961FCD7F4D00B6A47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CFA599B1FCD7F4D00B6A47E /* MobileExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileExamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CFA599F1FCD7F4D00B6A47E /* MobileExamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileExamUITests.swift; sourceTree = "<group>"; };
-		3CFA59A11FCD7F4D00B6A47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CFA59AD1FCD8C9300B6A47E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3CFA59B01FCD8D9F00B6A47E /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		3CFA59B21FCD8DA800B6A47E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3CFA59B51FCD932100B6A47E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3CFA59BC1FCD956300B6A47E /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		3CFA59BF1FCD97CB00B6A47E /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		3CFA59C11FCD9EEA00B6A47E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3CFA59C31FCDDBDD00B6A47E /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		3CFA59C51FCDEE7000B6A47E /* ProfileViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileViewController.storyboard; sourceTree = "<group>"; };
+		B3A1E50F31B723F5BA5E741D /* Pods_MobileExamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileExamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D239C018BA24DF454D967247 /* Pods_MobileExamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileExamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4394BC60ADAC20D1DF5C63 /* Pods_MobileExam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileExam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,20 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CFA598D1FCD7F4D00B6A47E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CFA59981FCD7F4D00B6A47E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				D7ADFB71ECB88048776124FB /* Pods_MobileExam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				3CFA597E1FCD7F4C00B6A47E /* MobileExam */,
-				3CFA59931FCD7F4D00B6A47E /* MobileExamTests */,
-				3CFA599E1FCD7F4D00B6A47E /* MobileExamUITests */,
 				3CFA597D1FCD7F4C00B6A47E /* Products */,
+				7C0D89775E23AB6CC0DFAAA2 /* Pods */,
+				6379E67B583C6357105B6A39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				3CFA597C1FCD7F4C00B6A47E /* MobileExam.app */,
-				3CFA59901FCD7F4D00B6A47E /* MobileExamTests.xctest */,
-				3CFA599B1FCD7F4D00B6A47E /* MobileExamUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,32 +83,75 @@
 		3CFA597E1FCD7F4C00B6A47E /* MobileExam */ = {
 			isa = PBXGroup;
 			children = (
+				3CFA59BE1FCD977B00B6A47E /* model */,
+				3CFA59BB1FCD955700B6A47E /* service */,
+				3CFA59B41FCD931200B6A47E /* profile */,
+				3CFA59AF1FCD8CD800B6A47E /* auth */,
 				3CFA597F1FCD7F4C00B6A47E /* AppDelegate.swift */,
-				3CFA59811FCD7F4C00B6A47E /* ViewController.swift */,
-				3CFA59831FCD7F4C00B6A47E /* Main.storyboard */,
 				3CFA59861FCD7F4C00B6A47E /* Assets.xcassets */,
 				3CFA59881FCD7F4C00B6A47E /* LaunchScreen.storyboard */,
 				3CFA598B1FCD7F4C00B6A47E /* Info.plist */,
+				3CFA59AD1FCD8C9300B6A47E /* Extensions.swift */,
+				3CFA59C11FCD9EEA00B6A47E /* Constants.swift */,
 			);
 			path = MobileExam;
 			sourceTree = "<group>";
 		};
-		3CFA59931FCD7F4D00B6A47E /* MobileExamTests */ = {
+		3CFA59AF1FCD8CD800B6A47E /* auth */ = {
 			isa = PBXGroup;
 			children = (
-				3CFA59941FCD7F4D00B6A47E /* MobileExamTests.swift */,
-				3CFA59961FCD7F4D00B6A47E /* Info.plist */,
+				3CFA59B01FCD8D9F00B6A47E /* SignInViewController.swift */,
+				3CFA59831FCD7F4C00B6A47E /* Main.storyboard */,
+				3CFA59B21FCD8DA800B6A47E /* SignUpViewController.swift */,
 			);
-			path = MobileExamTests;
+			path = auth;
 			sourceTree = "<group>";
 		};
-		3CFA599E1FCD7F4D00B6A47E /* MobileExamUITests */ = {
+		3CFA59B41FCD931200B6A47E /* profile */ = {
 			isa = PBXGroup;
 			children = (
-				3CFA599F1FCD7F4D00B6A47E /* MobileExamUITests.swift */,
-				3CFA59A11FCD7F4D00B6A47E /* Info.plist */,
+				3CFA59B51FCD932100B6A47E /* ProfileViewController.swift */,
+				3CFA59C51FCDEE7000B6A47E /* ProfileViewController.storyboard */,
 			);
-			path = MobileExamUITests;
+			path = profile;
+			sourceTree = "<group>";
+		};
+		3CFA59BB1FCD955700B6A47E /* service */ = {
+			isa = PBXGroup;
+			children = (
+				3CFA59BC1FCD956300B6A47E /* APIService.swift */,
+				3CFA59C31FCDDBDD00B6A47E /* AuthManager.swift */,
+				3C1CEE4C1FCDF7A6000DE63E /* DBManager.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		3CFA59BE1FCD977B00B6A47E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3CFA59BF1FCD97CB00B6A47E /* AuthResponse.swift */,
+				3C449C481FCDFDB400443A58 /* RealmModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6379E67B583C6357105B6A39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC4394BC60ADAC20D1DF5C63 /* Pods_MobileExam.framework */,
+				D239C018BA24DF454D967247 /* Pods_MobileExamTests.framework */,
+				B3A1E50F31B723F5BA5E741D /* Pods_MobileExamUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C0D89775E23AB6CC0DFAAA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34740161E56D3812707D7C04 /* Pods-MobileExam.debug.xcconfig */,
+				25023B9077BE65C8B8C0F828 /* Pods-MobileExam.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CFA59A41FCD7F4D00B6A47E /* Build configuration list for PBXNativeTarget "MobileExam" */;
 			buildPhases = (
+				0C0DF64A3558CE2618CC0347 /* [CP] Check Pods Manifest.lock */,
 				3CFA59781FCD7F4C00B6A47E /* Sources */,
 				3CFA59791FCD7F4C00B6A47E /* Frameworks */,
 				3CFA597A1FCD7F4C00B6A47E /* Resources */,
+				36B3E60E8145899EDC719CEA /* [CP] Embed Pods Frameworks */,
+				18E76280FB7B966ADABE1326 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,42 +176,6 @@
 			productName = MobileExam;
 			productReference = 3CFA597C1FCD7F4C00B6A47E /* MobileExam.app */;
 			productType = "com.apple.product-type.application";
-		};
-		3CFA598F1FCD7F4D00B6A47E /* MobileExamTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3CFA59A71FCD7F4D00B6A47E /* Build configuration list for PBXNativeTarget "MobileExamTests" */;
-			buildPhases = (
-				3CFA598C1FCD7F4D00B6A47E /* Sources */,
-				3CFA598D1FCD7F4D00B6A47E /* Frameworks */,
-				3CFA598E1FCD7F4D00B6A47E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3CFA59921FCD7F4D00B6A47E /* PBXTargetDependency */,
-			);
-			name = MobileExamTests;
-			productName = MobileExamTests;
-			productReference = 3CFA59901FCD7F4D00B6A47E /* MobileExamTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3CFA599A1FCD7F4D00B6A47E /* MobileExamUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3CFA59AA1FCD7F4D00B6A47E /* Build configuration list for PBXNativeTarget "MobileExamUITests" */;
-			buildPhases = (
-				3CFA59971FCD7F4D00B6A47E /* Sources */,
-				3CFA59981FCD7F4D00B6A47E /* Frameworks */,
-				3CFA59991FCD7F4D00B6A47E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3CFA599D1FCD7F4D00B6A47E /* PBXTargetDependency */,
-			);
-			name = MobileExamUITests;
-			productName = MobileExamUITests;
-			productReference = 3CFA599B1FCD7F4D00B6A47E /* MobileExamUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -194,16 +190,6 @@
 					3CFA597B1FCD7F4C00B6A47E = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-					};
-					3CFA598F1FCD7F4D00B6A47E = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 3CFA597B1FCD7F4C00B6A47E;
-					};
-					3CFA599A1FCD7F4D00B6A47E = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 3CFA597B1FCD7F4C00B6A47E;
 					};
 				};
 			};
@@ -221,8 +207,6 @@
 			projectRoot = "";
 			targets = (
 				3CFA597B1FCD7F4C00B6A47E /* MobileExam */,
-				3CFA598F1FCD7F4D00B6A47E /* MobileExamTests */,
-				3CFA599A1FCD7F4D00B6A47E /* MobileExamUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,66 +218,99 @@
 			files = (
 				3CFA598A1FCD7F4C00B6A47E /* LaunchScreen.storyboard in Resources */,
 				3CFA59871FCD7F4C00B6A47E /* Assets.xcassets in Resources */,
+				3CFA59C61FCDEE7000B6A47E /* ProfileViewController.storyboard in Resources */,
 				3CFA59851FCD7F4C00B6A47E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CFA598E1FCD7F4D00B6A47E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CFA59991FCD7F4D00B6A47E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C0DF64A3558CE2618CC0347 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileExam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18E76280FB7B966ADABE1326 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileExam/Pods-MobileExam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36B3E60E8145899EDC719CEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MobileExam/Pods-MobileExam-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Gloss/Gloss.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gloss.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileExam/Pods-MobileExam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3CFA59781FCD7F4C00B6A47E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CFA59821FCD7F4C00B6A47E /* ViewController.swift in Sources */,
+				3CFA59B11FCD8D9F00B6A47E /* SignInViewController.swift in Sources */,
+				3CFA59C41FCDDBDD00B6A47E /* AuthManager.swift in Sources */,
+				3CFA59AE1FCD8C9300B6A47E /* Extensions.swift in Sources */,
+				3C449C491FCDFDB400443A58 /* RealmModel.swift in Sources */,
+				3CFA59B61FCD932100B6A47E /* ProfileViewController.swift in Sources */,
+				3CFA59C01FCD97CB00B6A47E /* AuthResponse.swift in Sources */,
+				3C1CEE4D1FCDF7A6000DE63E /* DBManager.swift in Sources */,
+				3CFA59C21FCD9EEA00B6A47E /* Constants.swift in Sources */,
 				3CFA59801FCD7F4C00B6A47E /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CFA598C1FCD7F4D00B6A47E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CFA59951FCD7F4D00B6A47E /* MobileExamTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CFA59971FCD7F4D00B6A47E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CFA59A01FCD7F4D00B6A47E /* MobileExamUITests.swift in Sources */,
+				3CFA59B31FCD8DA800B6A47E /* SignUpViewController.swift in Sources */,
+				3CFA59BD1FCD956300B6A47E /* APIService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3CFA59921FCD7F4D00B6A47E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3CFA597B1FCD7F4C00B6A47E /* MobileExam */;
-			targetProxy = 3CFA59911FCD7F4D00B6A47E /* PBXContainerItemProxy */;
-		};
-		3CFA599D1FCD7F4D00B6A47E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3CFA597B1FCD7F4C00B6A47E /* MobileExam */;
-			targetProxy = 3CFA599C1FCD7F4D00B6A47E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3CFA59831FCD7F4C00B6A47E /* Main.storyboard */ = {
@@ -424,6 +441,7 @@
 		};
 		3CFA59A51FCD7F4D00B6A47E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34740161E56D3812707D7C04 /* Pods-MobileExam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +457,7 @@
 		};
 		3CFA59A61FCD7F4D00B6A47E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25023B9077BE65C8B8C0F828 /* Pods-MobileExam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,72 +468,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		3CFA59A81FCD7F4D00B6A47E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3M3NEN8AVA;
-				INFOPLIST_FILE = MobileExamTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.exam.MobileExamTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileExam.app/MobileExam";
-			};
-			name = Debug;
-		};
-		3CFA59A91FCD7F4D00B6A47E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3M3NEN8AVA;
-				INFOPLIST_FILE = MobileExamTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.exam.MobileExamTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileExam.app/MobileExam";
-			};
-			name = Release;
-		};
-		3CFA59AB1FCD7F4D00B6A47E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3M3NEN8AVA;
-				INFOPLIST_FILE = MobileExamUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.exam.MobileExamUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MobileExam;
-			};
-			name = Debug;
-		};
-		3CFA59AC1FCD7F4D00B6A47E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3M3NEN8AVA;
-				INFOPLIST_FILE = MobileExamUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.exam.MobileExamUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MobileExam;
 			};
 			name = Release;
 		};
@@ -535,24 +488,6 @@
 			buildConfigurations = (
 				3CFA59A51FCD7F4D00B6A47E /* Debug */,
 				3CFA59A61FCD7F4D00B6A47E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3CFA59A71FCD7F4D00B6A47E /* Build configuration list for PBXNativeTarget "MobileExamTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3CFA59A81FCD7F4D00B6A47E /* Debug */,
-				3CFA59A91FCD7F4D00B6A47E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3CFA59AA1FCD7F4D00B6A47E /* Build configuration list for PBXNativeTarget "MobileExamUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3CFA59AB1FCD7F4D00B6A47E /* Debug */,
-				3CFA59AC1FCD7F4D00B6A47E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
